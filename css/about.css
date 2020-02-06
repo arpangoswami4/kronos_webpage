@@ -1,0 +1,46 @@
+body{
+    background-image:url(../img/time2.jpeg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.a{
+    width: 60%;
+    height: 800px;
+    margin:auto;
+    border: 1px solid black;
+    background: black;
+    background-image:url(../img/3.jpeg);
+
+}
+.r1{
+    width: 100%;
+    font-size: 50px;
+    padding-top:80px;
+    padding-left: 40px; 
+    color: white;
+    
+    
+  
+
+}
+
+.r2{
+    width: 100%;
+    padding-top:30px;
+    padding-left: 20px;
+    
+    
+    
+}
+.c1{
+    width: 50%;
+    font-size: 30px;
+    margin:auto;
+    padding-top:40px;
+    padding-left: 40px;
+    color: white;
+ 
+  
+   
+}
