@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+}
+body,p{
+    margin:0px;
+    font-family:"Open Sans", sans-serif;    
+}
+.bg{
+    background-image: url(../img/back1.jpg);
+
+    background-attachment: fixed;
+    background-size:cover;
+    height:1250px;
+    position:relative;
+}
+.main{
+
+}
+.logo{
+    position:absolute;
+    top:150px;
+    height:400px;
+    width:400px;
+    margin:0px 39%;
+}
+.tag{
+    position:absolute;
+    top:550px;
+    margin: 0px 39%;
+    text-align: center;
+    color: #1d0304;
+    font-family: cursive;
+}
