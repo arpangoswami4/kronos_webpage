@@ -14,13 +14,13 @@ body{
 .content{
     margin-left:-250px;
     overflow-x: hidden;
-    transition:0.8s;
-    
+    transition:0.7s;
+    position: fixed;    
 }
     
 .sidebar{
     width: 170px;
-    height:1250px;
+    height:668px;
     float: left;
     overflow: hidden;
     margin-left:0px;
@@ -43,6 +43,7 @@ body{
     font-size: 25px;
     display: inline-block;
     color: #FFD700;
+    position: fixed;
 }
 .cross{
     padding-left: 150px;
