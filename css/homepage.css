@@ -14,7 +14,7 @@ body{
 .content{
     margin-left:-250px;
     overflow-x: hidden;
-    transition:0.3s;
+    transition:0.8s;
     
 }
     
@@ -42,12 +42,14 @@ body{
 .open_side_nav{
     font-size: 25px;
     display: inline-block;
+    color: #FFD700;
 }
 .cross{
     padding-left: 150px;
     padding-bottom:40px;
     font-size: 25px;
     display: inline-block;
+    color: #FFD700;
 }
 .open_side_nav_off{
     font-size: 25px;
