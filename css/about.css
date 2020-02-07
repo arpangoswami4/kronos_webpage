@@ -4,8 +4,12 @@ body{
     padding-top: 200px;
     padding-bottom: 200px;
 }
+.m{
+    width:1200px;
+    margin: auto;
+}
 .a{
-    width: 60%;
+    width: 90%;
     height: 800px;
     margin:auto;
     border: 1px solid black;
@@ -34,7 +38,7 @@ body{
     
 }
 .c1{
-    width: 50%;
+    width: 60%;
     font-size: 30px;
     margin:auto;
     padding-top:40px;
