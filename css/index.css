@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
     margin:0px;
     font-family:"Open Sans", sans-serif;    
-    background-image: url(../img/back1.jpg);
+    /*background-image: url(../img/back1.jpg);*/
     background-attachment: fixed;
     background-size: cover; 
     height:1250px;  
@@ -20,24 +20,26 @@ body{
     
 .sidebar{
     width: 170px;
-    height:668px;
+    height: 100%;
     float: left;
     overflow: hidden;
-    margin-left:0px;
-    z-index:1;
+    margin-left: 0px;
+    z-index: 1;
     overflow-x: hidden;
     transition: 0.9s;
-    padding-bottom:263px;
-    background-image: url(../img/side_bar.jpg);
+    padding-bottom: 263px;
+    background-image: url(../img/nav.jpeg);
     background-attachment: fixed;
-    background-size: cover; 
-    
+    background-size: cover;
+    opacity: 0.9;    
 }
 .elements_nav{
     color: #FFD700;
     text-decoration: none;
     display: block;
     margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .open_side_nav{
     font-size: 25px;
@@ -47,10 +49,10 @@ body{
 }
 .cross{
     padding-left: 150px;
-    padding-bottom:40px;
-    font-size: 25px;
+    padding-bottom: 40px;
+    font-size: 35px;
     display: inline-block;
-    color: #FFD700;
+    color: #ff9800;
 }
 .open_side_nav_off{
     font-size: 25px;
@@ -74,7 +76,12 @@ body{
     top:500px;
     width: 400px;
     text-align: center;
-    color: #1d0304;
+    color: #d80f17;
     font-family: cursive;
+}
+#myVideo {
+    position: fixed;  
+    min-width: 100%; 
+    min-height: 100%;
 }
 
