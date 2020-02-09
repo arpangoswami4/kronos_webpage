@@ -76,8 +76,9 @@ body{
     top:500px;
     width: 400px;
     text-align: center;
-    color: #d80f17;
-    font-family: cursive;
+    color: #ef9819;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 #myVideo {
     position: fixed;  
