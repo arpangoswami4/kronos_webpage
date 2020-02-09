@@ -16,6 +16,7 @@ body{
     overflow-x: hidden;
     transition:0.7s;
     position: fixed;
+    top:10px;
 }
 
 .sidebar{
@@ -46,6 +47,7 @@ body{
     display: inline-block;
     color: white;
     position: fixed;
+    top:10px;
 }
 .cross{
     padding-left: 150px;
@@ -81,9 +83,9 @@ body{
     font-size: 40px;
 }
 #myVideo {
-    position: fixed;
+    /*position: fixed;
+    min-height: 100%;*/
     min-width: 100%;
-    min-height: 100%;
 }
 
 /*events section*/
@@ -129,8 +131,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position:relative;
-    top:700px;
-    margin-top: -100px;
+    /*top:1000px;*/
+    margin-top: -115px;
 }
 
 /*.real_scroll::after{
